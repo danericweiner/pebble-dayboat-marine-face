@@ -1,0 +1,114 @@
+{
+  "uuid": "<UUID>",
+  "shortName": "Day Boat",
+  "longName": "Day Boat Marine Face",
+  "companyName": "Dan W.",
+  "versionLabel": "2.1",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "diorite"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_TIDE": 0,
+    "KEY_WIND": 1,
+    "KEY_SUNSET": 2,
+    "KEY_TEMP": 3,
+    "WUNDERGROUND_API_KEY": 4,
+    "DATA_ALTERNATE": 5,
+    "KEY_LOCATION": 6,
+    "SHOW_CITY": 7,
+    "KEY_INVERT": 8,
+    "INVERT": 9,
+    "UNITS_CELSIUS": 10,
+    "KEY_SETTINGS": 11,
+    "WIND_ALTERNATE": 12, 
+    "KEY_FORECAST": 13
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_PROP000",
+        "file": "images/prop000.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP015",
+        "file": "images/prop015.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP030",
+        "file": "images/prop030.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP045",
+        "file": "images/prop045.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP060",
+        "file": "images/prop060.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP075",
+        "file": "images/prop075.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP090",
+        "file": "images/prop090.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP105",
+        "file": "images/prop105.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP000_INVERT",
+        "file": "images/prop000_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP015_INVERT",
+        "file": "images/prop015_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP030_INVERT",
+        "file": "images/prop030_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP045_INVERT",
+        "file": "images/prop045_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP060_INVERT",
+        "file": "images/prop060_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP075_INVERT",
+        "file": "images/prop075_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP090_INVERT",
+        "file": "images/prop090_invert.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_PROP105_INVERT",
+        "file": "images/prop105_invert.png"
+      }
+    ]
+  },
+  "capabilities":
+    ["location", "configurable"]
+}
